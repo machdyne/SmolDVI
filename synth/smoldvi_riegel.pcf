@@ -1,0 +1,13 @@
+# LEDs
+set_io clk_osc L5
+
+# LD-MOD-DDMI on Riegel PMODA
+set_io  dvi_n[0]	J3
+set_io  dvi_n[1]	L1
+set_io  dvi_n[2]	J5
+set_io  dvi_n[3]	G3
+
+set_io  dvi_p[0]	H3
+set_io  dvi_p[1]	K5
+set_io  dvi_p[2]	L2
+set_io  dvi_p[3]	H7

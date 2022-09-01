@@ -1,0 +1,23 @@
+# LEDs
+set_io clk_osc 20	# CLK_RP @ 126MHz
+
+# built-in DDMI port
+set_io  dvi_n[0]	21		# D0_N
+set_io  dvi_n[1]	25		# D1_N
+set_io  dvi_n[2]	27		# D2_N
+set_io  dvi_n[3]	18		# CK_N
+set_io  dvi_p[0]	23		# D0_P
+set_io  dvi_p[1]	26		# D1_P
+set_io  dvi_p[2]	28		# D2_P
+set_io  dvi_p[3]	19		# CK_P
+
+# LD-MOD-DDMI on Bonbon PMODA
+#set_io  dvi_n[0]	42		# D0_N
+#set_io  dvi_n[1]	44		# D1_N
+#set_io  dvi_n[2]	46		# D2_N
+#set_io  dvi_n[3]	37		# CK_N
+#set_io  dvi_p[0]	38		# D0_P
+#set_io  dvi_p[1]	43		# D1_P
+#set_io  dvi_p[2]	45		# D2_P
+#set_io  dvi_p[3]	36		# CK_P
+

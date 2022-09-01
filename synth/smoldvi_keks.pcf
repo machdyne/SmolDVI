@@ -1,0 +1,35 @@
+#set_io clk_osc F7	#CLK_100
+set_io clk_osc K9 # CLK_RP @ 126MHz
+
+set_io LED			A5
+
+# built-in DDMI port
+set_io  dvi_n[0]	T7		# D0_N
+set_io  dvi_n[1]	T9		# D1_N
+set_io  dvi_n[2]	T13	# D2_N
+set_io  dvi_n[3]	T5		# CK_N
+set_io  dvi_p[0]	T8		# D0_P
+set_io  dvi_p[1]	T10	# D1_P
+set_io  dvi_p[2]	T14	# D2_P
+set_io  dvi_p[3]	T6		# CK_P
+
+# LD-MOD-DDMI on Keks PMODA
+#set_io  dvi_n[0] A15    # D0_N A3
+#set_io  dvi_n[1] B13    # D1_N A2
+#set_io  dvi_n[2] A11    # D2_N A1
+#set_io  dvi_n[3] A16    # CK_N A4
+#set_io  dvi_p[0] B15    # D0_P A9
+#set_io  dvi_p[1] B14    # D1_P A8
+#set_io  dvi_p[2] B12    # D2_P A7
+#set_io  dvi_p[3] C14    # CK_P A10
+
+# LD-MOD-DDMI on Keks PMODB
+#set_io  dvi_n[0] R10    # D0_N B3
+#set_io  dvi_n[1] T16    # D1_N B2
+#set_io  dvi_n[2] M12    # D2_N B1
+#set_io  dvi_n[3] P10    # CK_N B4
+#set_io  dvi_p[0] P13    # D0_P B9
+#set_io  dvi_p[1] T15    # D1_P B8
+#set_io  dvi_p[2] R16    # D2_P B7
+#set_io  dvi_p[3] T11    # CK_P B10
+
